@@ -15,9 +15,9 @@ public class Main {
         System.out.println("Insira o CPF do Cliente: ");
         cliente.cpf = sc.nextLong();
 
-         Computador pc1 = new Computador("Positivo",1300.00);
-         Computador pc2 = new Computador("Acer",1800);
-         Computador pc3 = new Computador("Vaio",2800.00);
+         Computador pc1 = new Computador("Apple",292);
+         Computador pc2 = new Computador("Samsung",1526);
+         Computador pc3 = new Computador("Dell",5970);
 
          SistemaOperacional so1 = new SistemaOperacional("Sistema Operacional Linux Ubuntu",32);
          SistemaOperacional so2 = new SistemaOperacional("Sistema Operacional Windows 8",64);
@@ -28,9 +28,9 @@ public class Main {
          MemoriaUSB m1 = new MemoriaUSB("HD Externo",1000);
 
 
-        HardwareBasico h1 = new HardwareBasico("Pentium Core i3 (1200 Mhz ) com  4Gb de Memória RAM", 500);
-        HardwareBasico h2 = new HardwareBasico("Pentium Core i5 (2260 Mhz) com 8 Gb de Memória RAM", 1000);
-        HardwareBasico h3 = new HardwareBasico("Pentium Core i5 (2260 Mhz) com 16 Gb de Memória RAM", 2000);
+        HardwareBasico h1 = new HardwareBasico("Pentium Core i3 (2200 Mhz ) com  8Gb de Memória RAM", 500);
+        HardwareBasico h2 = new HardwareBasico("Pentium Core i5 (3370 Mhz) com 16 Gb de Memória RAM", 1000);
+        HardwareBasico h3 = new HardwareBasico("Pentium Core i7 (4500 Mhz) com 32 Gb de Memória RAM", 2000);
 
 
 
